@@ -1,4 +1,4 @@
-package chater;
+package chapter;
 
 @FunctionalInterface
 public interface TriFunction<T,U,V,R> {
