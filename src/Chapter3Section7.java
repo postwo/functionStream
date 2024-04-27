@@ -21,7 +21,7 @@ public class Chapter3Section7 {
     */
     public static <T> void process(List<T> inputs, BiConsumer<Integer,T> processor){//첫번째는 인덱스여서 고정이다 그러므로 Integer를 넣어준다
         for (int i=0; i<inputs.size(); i++){
-            processor.accept(i,inputs.get(i));
+            processor.accept(i,inputs.get(i)); //여기 두개의 값을 받아서  (index,input)-> System.out.println("Processing"+ input+"at index"+index); 여기에 넣어준다
         }
     }
 }
