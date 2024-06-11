@@ -6,6 +6,6 @@ public class Chapter3Section3 {
         BiFunction<Integer,Integer,Integer> add = ( x,y) ->  x+y;//(Integer x,Integer y)이거는 받는값을 말한다
 
         int result = add.apply(3,5);
-        System.out.println(result);
+//        System.out.println(result);
     }
 }

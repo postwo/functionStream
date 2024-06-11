@@ -5,7 +5,7 @@ public class Chapter3Section4 {
     TriFunction<Integer,Integer,Integer,Integer> addThreeNumbers = (x, y, z)-> x+y+z;
 
     int result= addThreeNumbers.apply(2,3,5);
-        System.out.println(result);
+//        System.out.println(result);
 
     }
 }
